@@ -27,4 +27,5 @@ Infrared and visible image fusion (IVIF) is increasingly applied in critical fie
 
 ## Dataset
 Our training dataset can be downloaded from [Google drive](https://drive.google.com/file/d/1DJ4btzAnYLtfh9HcLvWcVtFUA9z3xlSQ/view?usp=drive_link) and placed in the folder ``'./dataset/'.``
+Our test sets can be downloaded from [Google drive](https://drive.google.com/drive/folders/1O6iAEOgmo3XBicjL5TPj7HxPPylOk2F_?usp=drive_link) and placed in the folder ``'./test_image/'.``
 
