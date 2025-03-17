@@ -1,5 +1,5 @@
 from time import time
-from network import Restormer_Encoder, Restormer_Decoder, BaseFeatureExtraction, DetailFeatureExtraction
+from network import Restormer_Encoder, Restormer_Decoder, LongScaleFeatureExtraction, ShortScaleFeatureExtraction
 import os
 import numpy as np
 import cv2
@@ -24,8 +24,8 @@ for dataset_name in ["RoadScene","TNO","MSRS"]:
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     Encoder = nn.DataParallel(Restormer_Encoder()).to(device)
     Decoder = nn.DataParallel(Restormer_Decoder()).to(device)
-    BaseFuseLayer = nn.DataParallel(BaseFeatureExtraction(dim=64, num_heads=8)).to(device)
-    DetailFuseLayer = nn.DataParallel(DetailFeatureExtraction(num_layers=1)).to(device)
+    BaseFuseLayer = nn.DataParallel(LongScaleFeatureExtraction(dim=64, num_heads=8)).to(device)
+    DetailFuseLayer = nn.DataParallel(ShortScaleFeatureExtraction(num_layers=1)).to(device)
 
     Encoder.load_state_dict(torch.load(ckpt_path)['DIDF_Encoder'])
     Decoder.load_state_dict(torch.load(ckpt_path)['DIDF_Decoder'])
