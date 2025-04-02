@@ -52,7 +52,7 @@ Our test sets can be downloaded from [Google drive](https://drive.google.com/dri
 
 **2. Fusion results on RoadScene dataset**
 
-<img src="Figure/Comparison_RoadScene_new.png" width="90%" align=center />
+<img src="Figure/Comparison_RoadScene.png" width="90%" align=center />
 
 **3. Fusion results on TNO dataset**
 
