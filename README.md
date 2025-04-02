@@ -3,6 +3,10 @@
 ## About
 Codes for ***CrossFuse: Learning Infrared and Visible Image Fusion by Cross-Sensor Top-K Vision Alignment and Beyond***, **IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2025.**
 
+*-[[Paper]](https://ieeexplore.ieee.org/abstract/document/10900459)*
+
+*-[[ArXiv]](https://arxiv.org/abs/2502.14493)*
+
 ## Contents
 
 - [Abstract](#Abstract)
@@ -55,7 +59,7 @@ Our test sets can be downloaded from [Google drive](https://drive.google.com/dri
 
 <img src="Figure/Internal_DA.png" width="90%" align=center />
 
-### Quantitative results
+### Qualitative results
 
 **1. Fusion results on MSRS dataset**
 
@@ -68,4 +72,15 @@ Our test sets can be downloaded from [Google drive](https://drive.google.com/dri
 **3. Fusion results on TNO dataset**
 
 <img src="Figure/Comparison_TNO_new.png" width="90%" align=center />
+
+### Quantitative results
+
+![image](https://github.com/user-attachments/assets/9117a152-e704-41e1-bc39-af5773812dc9)
+
+
+![image](https://github.com/user-attachments/assets/c63ad75b-cf1f-46ad-b75c-7ce3dbe84539)
+
+
+![image](https://github.com/user-attachments/assets/f1edd730-0f85-4a07-be88-980c2f126d37)
+
 
