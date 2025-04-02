@@ -9,11 +9,10 @@ Codes for ***CrossFuse: Learning Infrared and Visible Image Fusion by Cross-Sens
 - [Installation](#Installation)
 - [Dataset](#Dataset)
 - [Usage](#Usage)
-  - [Network Architecture](#Network-Architecture)
   - [Training](#Training)
   - [Testing](#Testing)
 - [CrossFuse](#CrossFuse)
-  - [Illustration of our model](#Illustration-of-our-model)
+  - [Network Architecture](#Network-Architecture)
   - [Qualitative results](#Qualitative-results)
   - [Quantitative results](#Quantitative-results)
 - [Citation](#Citation)
@@ -29,3 +28,18 @@ Infrared and visible image fusion (IVIF) is increasingly applied in critical fie
 Our training dataset can be downloaded from [Google drive](https://drive.google.com/file/d/1DJ4btzAnYLtfh9HcLvWcVtFUA9z3xlSQ/view?usp=drive_link) and placed in the folder ``'./dataset/'.``
 Our test sets can be downloaded from [Google drive](https://drive.google.com/drive/folders/1O6iAEOgmo3XBicjL5TPj7HxPPylOk2F_?usp=drive_link) and placed in the folder ``'./test_image/'.``
 
+## CrossFuse
+
+### Network Architecture
+
+**1. Overall Framework**
+
+<img src="Figure/Overall_Framework.png" width="90%" align=center />
+
+**2. Top-k Selective Channel Alignment for External Data Consistency**
+
+<img src="Figure/External_DA.png" width="90%" align=center />
+
+**3. Internal-View Augmentation for Self-supervised Learning**
+
+<img src="Figure/Internal_DA.png" width="90%" align=center />
