@@ -34,7 +34,7 @@ Our test sets can be downloaded from [Google drive](https://drive.google.com/dri
 
 **1. Overall Framework**
 
-<img src="Figure/Overall_Framework.png" width="90%" align=center />
+<img src="Figure/Overall_Framework1.png" width="90%" align=center />
 
 **2. Top-k Selective Channel Alignment for External Data Consistency**
 
@@ -43,3 +43,18 @@ Our test sets can be downloaded from [Google drive](https://drive.google.com/dri
 **3. Internal-View Augmentation for Self-supervised Learning**
 
 <img src="Figure/Internal_DA.png" width="90%" align=center />
+
+### Quantitative results
+
+**1. Fusion results on MSRS dataset**
+
+<img src="Figure/Comparison_MSRS_new.png" width="90%" align=center />
+
+**2. Fusion results on RoadScene dataset**
+
+<img src="Figure/Comparison_RoadScene_new.png" width="90%" align=center />
+
+**3. Fusion results on TNO dataset**
+
+<img src="Figure/Comparison_TNO_new.png" width="90%" align=center />
+
